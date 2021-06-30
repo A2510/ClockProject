@@ -50,9 +50,9 @@ class Window(QWidget):
         current_time = QTime.currentTime()
 
 
-        label_time = current_time.toString('hh:mm:ss')
+        label_time = current_time.toString('hh:mm:ss') # I did this change 
 
-
+        print("Hello World")
         self.label.setText(label_time)
 
 
